@@ -1,0 +1,49 @@
+.graph {
+  width: 1146px;
+  height: 328px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.daily {
+  color: var(--light-blue-gray-300, #cbd5e1);
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 150% */
+}
+.state-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.graph-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.confirmed1 {
+  border-radius: 12px;
+  background: #331427;
+}
+.active1 {
+  border-radius: 12px;
+  background: #132240;
+}
+.recovered1 {
+  border-radius: 12px;
+  background: #182829;
+}
+.deceased1 {
+  border-radius: 12px;
+  background: #1c1c2b;
+}
+.tested1 {
+  border-radius: 12px;
+  background: #230f41;
+}
